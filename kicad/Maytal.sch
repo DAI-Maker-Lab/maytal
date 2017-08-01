@@ -106,20 +106,9 @@ Text GLabel 3800 4300 2    60   Input ~ 0
 SDA
 Text GLabel 4050 4400 2    60   Input ~ 0
 SCL
-$Comp
-L CONN_01X02 P1
-U 1 1 58C05A2A
-P 3600 3200
-F 0 "P1" H 3600 3350 50  0000 C CNN
-F 1 "LIPO_SOLAR" V 3700 3200 50  0000 C CNN
-F 2 "DAI_Maker_Lab_footprints:Adafruit_LiPo_Solar" H 3600 3200 50  0001 C CNN
-F 3 "" H 3600 3200 50  0000 C CNN
-	1    3600 3200
-	0    1    1    0   
-$EndComp
-Text GLabel 3750 2900 2    60   Input ~ 0
+Text GLabel 3500 2600 2    60   Input ~ 0
 RAW
-Text GLabel 3450 2900 0    60   Input ~ 0
+Text GLabel 3300 2600 0    60   Input ~ 0
 GND
 $Comp
 L ArduinoProMini IC1
@@ -174,14 +163,6 @@ Wire Wire Line
 	4050 4400 3750 4400
 Wire Wire Line
 	3800 4300 3750 4300
-Wire Wire Line
-	3450 2900 3550 2900
-Wire Wire Line
-	3550 2900 3550 3000
-Wire Wire Line
-	3750 2900 3650 2900
-Wire Wire Line
-	3650 2900 3650 3000
 Wire Wire Line
 	6700 6050 6700 6150
 Wire Wire Line
@@ -244,4 +225,23 @@ Wire Wire Line
 	5700 3750 5500 3750
 Wire Wire Line
 	5500 3750 5500 4150
+$Comp
+L CONN_01X04 P1
+U 1 1 59552F28
+P 3500 3050
+F 0 "P1" H 3500 3300 50  0000 C CNN
+F 1 "LIPO_SOLAR" V 3600 3050 50  0000 C CNN
+F 2 "DAI_Maker_Lab_footprints:Adafruit_LiPo_Solar" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0000 C CNN
+	1    3500 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2600 3350 2600
+Wire Wire Line
+	3350 2600 3350 2850
+Wire Wire Line
+	3500 2600 3450 2600
+Wire Wire Line
+	3450 2600 3450 2850
 $EndSCHEMATC
